@@ -1,0 +1,1021 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"174 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\G15.c
+[e E5611 . `uc
+MODEL_NUMBER_L 0
+MODEL_NUMBER_H 1
+VERSION 2
+ID 3
+BAUD_RATE 4
+RETURN_DELAY_TIME 5
+CW_ANGLE_LIMIT_L 6
+CW_ANGLE_LIMIT_H 7
+CCW_ANGLE_LIMIT_L 8
+CCW_ANGLE_LIMIT_H 9
+RESERVED1 10
+LIMIT_TEMPERATURE 11
+DOWN_LIMIT_VOLTAGE 12
+UP_LIMIT_VOLTAGE 13
+MAX_TORQUE_L 14
+MAX_TORQUE_H 15
+STATUS_RETURN_LEVEL 16
+ALARM_LED 17
+ALARM_SHUTDOWN 18
+RESERVED2 19
+DOWN_CALIBRATION_L 20
+DOWN_CALIBRATION_H 21
+UP_CALIBRATION_L 22
+UP_CALIBRATION_H 23
+TORQUE_ENABLE 24
+G15LED 25
+CW_COMPLIANCE_MARGIN 26
+CCW_COMPLIANCE_MARGIN 27
+CW_COMPLIANCE_SLOPE 28
+CCW_COMPLIANCE_SLOPE 29
+GOAL_POSITION_L 30
+GOAL_POSITION_H 31
+MOVING_SPEED_L 32
+MOVING_SPEED_H 33
+TORQUE_LIMIT_L 34
+TORQUE_LIMIT_H 35
+PRESENT_POSITION_L 36
+PRESENT_POSITION_H 37
+PRESENT_SPEED_L 38
+PRESENT_SPEED_H 39
+PRESENT_LOAD_L 40
+PRESENT_LOAD_H 41
+PRESENT_VOLTAGE 42
+PRESENT_TEMPERATURE 43
+REGISTERED_INSTRUCTION 44
+RESERVE3 45
+MOVING 46
+LOCK 47
+PUNCH_L 48
+PUNCH_H 49
+]
+"35 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\Shield2AMotor.h
+[e E4610 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"4 D:\Program Files\Microchip\xc8\v1.32\sources\common\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.32\sources\common\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"31 D:\Program Files\Microchip\xc8\v1.32\sources\common\abtofl.c
+[v ___abtofl __abtofl `(d  1 e 3 0 ]
+"33 D:\Program Files\Microchip\xc8\v1.32\sources\common\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"8 D:\Program Files\Microchip\xc8\v1.32\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"8 D:\Program Files\Microchip\xc8\v1.32\sources\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"36 D:\Program Files\Microchip\xc8\v1.32\sources\common\altofl.c
+[v ___altofl __altofl `(d  1 e 3 0 ]
+"42 D:\Program Files\Microchip\xc8\v1.32\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"8 D:\Program Files\Microchip\xc8\v1.32\sources\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"8 D:\Program Files\Microchip\xc8\v1.32\sources\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"37 D:\Program Files\Microchip\xc8\v1.32\sources\common\attofl.c
+[v ___attofl __attofl `(d  1 e 3 0 ]
+"37 D:\Program Files\Microchip\xc8\v1.32\sources\common\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"8 D:\Program Files\Microchip\xc8\v1.32\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"8 D:\Program Files\Microchip\xc8\v1.32\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"31 D:\Program Files\Microchip\xc8\v1.32\sources\common\awtofl.c
+[v ___awtofl __awtofl `(d  1 e 3 0 ]
+"32 D:\Program Files\Microchip\xc8\v1.32\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"63 D:\Program Files\Microchip\xc8\v1.32\sources\common\double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"88 D:\Program Files\Microchip\xc8\v1.32\sources\common\fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"49 D:\Program Files\Microchip\xc8\v1.32\sources\common\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.32\sources\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"62 D:\Program Files\Microchip\xc8\v1.32\sources\common\flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 D:\Program Files\Microchip\xc8\v1.32\sources\common\flneg.c
+[v ___flneg __flneg `(d  1 e 3 0 ]
+"62 D:\Program Files\Microchip\xc8\v1.32\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"20 D:\Program Files\Microchip\xc8\v1.32\sources\common\flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"43 D:\Program Files\Microchip\xc8\v1.32\sources\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 D:\Program Files\Microchip\xc8\v1.32\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"49 D:\Program Files\Microchip\xc8\v1.32\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.32\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 D:\Program Files\Microchip\xc8\v1.32\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 D:\Program Files\Microchip\xc8\v1.32\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"20 D:\Program Files\Microchip\xc8\v1.32\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 D:\Program Files\Microchip\xc8\v1.32\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.32\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.32\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"27 D:\Program Files\Microchip\xc8\v1.32\sources\common\lbtofl.c
+[v ___lbtofl __lbtofl `(d  1 e 3 0 ]
+"27 D:\Program Files\Microchip\xc8\v1.32\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"8 D:\Program Files\Microchip\xc8\v1.32\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"8 D:\Program Files\Microchip\xc8\v1.32\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"30 D:\Program Files\Microchip\xc8\v1.32\sources\common\lltofl.c
+[v ___lltofl __lltofl `(d  1 e 3 0 ]
+"35 D:\Program Files\Microchip\xc8\v1.32\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"8 D:\Program Files\Microchip\xc8\v1.32\sources\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"8 D:\Program Files\Microchip\xc8\v1.32\sources\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"30 D:\Program Files\Microchip\xc8\v1.32\sources\common\lttofl.c
+[v ___lttofl __lttofl `(d  1 e 3 0 ]
+"30 D:\Program Files\Microchip\xc8\v1.32\sources\common\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"8 D:\Program Files\Microchip\xc8\v1.32\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 D:\Program Files\Microchip\xc8\v1.32\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"28 D:\Program Files\Microchip\xc8\v1.32\sources\common\lwtofl.c
+[v ___lwtofl __lwtofl `(d  1 e 3 0 ]
+"28 D:\Program Files\Microchip\xc8\v1.32\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"7 D:\Program Files\Microchip\xc8\v1.32\sources\common\rand.c
+[v _srand srand `(v  1 e 0 0 ]
+"13
+[v _rand rand `(i  1 e 2 0 ]
+"15 D:\Program Files\Microchip\xc8\v1.32\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 D:\Program Files\Microchip\xc8\v1.32\sources\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 D:\Program Files\Microchip\xc8\v1.32\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.32\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\pic18\asfladd.c
+[v ___asfladd __asfladd `(d  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\pic18\asfldiv.c
+[v ___asfldiv __asfldiv `(d  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\pic18\asflmul.c
+[v ___asflmul __asflmul `(d  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\pic18\asflsub.c
+[v ___asflsub __asflsub `(d  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\pic18\asftadd.c
+[v ___asftadd __asftadd `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\pic18\asftdiv.c
+[v ___asftdiv __asftdiv `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\pic18\asftmul.c
+[v ___asftmul __asftmul `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\pic18\asftsub.c
+[v ___asftsub __asftsub `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.32\sources\pic18\aslmul.c
+[v ___aslmul __aslmul `(ul  1 e 4 0 ]
+"16 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\G15.c
+[v _G15_begin G15_begin `(v  1 e 0 0 ]
+"30
+[v _setTx setTx `(v  1 e 0 0 ]
+"35
+[v _setRx setRx `(v  1 e 0 0 ]
+"40
+[v _send_packet send_packet `(us  1 e 2 0 ]
+"143
+[v _G15_setWheelMode G15_setWheelMode `(us  1 e 2 0 ]
+"155
+[v _G15_exitWheelMode G15_exitWheelMode `(us  1 e 2 0 ]
+"160
+[v _G15_setWheelSpeed G15_setWheelSpeed `(us  1 e 2 0 ]
+"170
+[v _G15_setPos G15_setPos `(us  1 e 2 0 ]
+"182
+[v _G15_rotateCW G15_rotateCW `(us  1 e 2 0 ]
+"189
+[v _G15_RotateCCW G15_RotateCCW `(us  1 e 2 0 ]
+"197
+[v _G15_setTorqueOnOff G15_setTorqueOnOff `(us  1 e 2 0 ]
+"208
+[v _G15_setSpeed G15_setSpeed `(us  1 e 2 0 ]
+"220
+[v _G15_setTimetoGoal G15_setTimetoGoal `(us  1 e 2 0 ]
+"228
+[v _G15_setAngleLimit G15_setAngleLimit `(us  1 e 2 0 ]
+"246
+[v _G15_setTorqueLimit G15_setTorqueLimit `(us  1 e 2 0 ]
+"258
+[v _G15_setTemperatureLimit G15_setTemperatureLimit `(us  1 e 2 0 ]
+"272
+[v _G15_setVoltageLimit G15_setVoltageLimit `(us  1 e 2 0 ]
+"287
+[v _G15_setID G15_setID `(us  1 e 2 0 ]
+"299
+[v _G15_setLED G15_setLED `(us  1 e 2 0 ]
+"310
+[v _G15_setAlarmLED G15_setAlarmLED `(us  1 e 2 0 ]
+"328
+[v _G15_setAlarmShutDown G15_setAlarmShutDown `(us  1 e 2 0 ]
+"345
+[v _G15_setMarginSlopePunch G15_setMarginSlopePunch `(us  1 e 2 0 ]
+"372
+[v _G15_setBaudRate G15_setBaudRate `(us  1 e 2 0 ]
+"392
+[v _G15_factoryReset G15_factoryReset `(us  1 e 2 0 ]
+"404
+[v _G15_ping G15_ping `(us  1 e 2 0 ]
+"410
+[v _G15_getPos G15_getPos `(us  1 e 2 0 ]
+"418
+[v _G15_getSpeed G15_getSpeed `(us  1 e 2 0 ]
+"426
+[v _G15_getLoad G15_getLoad `(us  1 e 2 0 ]
+"434
+[v _G15_getVoltage G15_getVoltage `(us  1 e 2 0 ]
+"442
+[v _G15_getTemperature G15_getTemperature `(us  1 e 2 0 ]
+"450
+[v _G15_getTorqueOnOff G15_getTorqueOnOff `(us  1 e 2 0 ]
+"458
+[v _G15_isMoving G15_isMoving `(us  1 e 2 0 ]
+"466
+[v _G15_detAction G15_detAction `(v  1 e 0 0 ]
+"21 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\HardwareSerial.c
+[v _store_char store_char `(v  1 e 0 0 ]
+"35
+[v _Serial_timedRead Serial_timedRead `(i  1 e 2 0 ]
+"46
+[v _Serial_setTimeout Serial_setTimeout `(v  1 e 0 0 ]
+"51
+[v _HardwareSerial HardwareSerial `(v  1 e 0 0 ]
+"57
+[v _Serial_begin Serial_begin `(v  1 e 0 0 ]
+"81
+[v _Serial_end Serial_end `(v  1 e 0 0 ]
+"95
+[v _Serial_available Serial_available `(i  1 e 2 0 ]
+"100
+[v _Serial_peek Serial_peek `(i  1 e 2 0 ]
+"112
+[v _Serial_read Serial_read `(i  1 e 2 0 ]
+"127
+[v _Serial_readBytes Serial_readBytes `(ui  1 e 2 0 ]
+"140
+[v _Serial_readBytesUntil Serial_readBytesUntil `(ui  1 e 2 0 ]
+"154
+[v _Serial_flush Serial_flush `(v  1 e 0 0 ]
+"161
+[v _Serial_write Serial_write `(ui  1 e 2 0 ]
+"179
+[v _Serial_printString Serial_printString `(v  1 e 0 0 ]
+"184
+[v _Serial_printNumber Serial_printNumber `(v  1 e 0 0 ]
+"219
+[v _Serial_printFloat Serial_printFloat `(v  1 e 0 0 ]
+"22 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\interrupt.c
+[v _attachInterrupt attachInterrupt `(v  1 e 0 0 ]
+"54
+[v _detachInterrupt detachInterrupt `(v  1 e 0 0 ]
+"78
+[v _high_isr high_isr `II(v  1 e 0 0 ]
+"133
+[v _low_isr low_isr `IIL(v  1 e 0 0 ]
+"11 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\LiquidCrystal.c
+[v _lcd_4bit lcd_4bit `(v  1 e 0 0 ]
+"28
+[v _lcd_8bit lcd_8bit `(v  1 e 0 0 ]
+"50
+[v _lcd_begin lcd_begin `(v  1 e 0 0 ]
+"119
+[v _lcd_clear lcd_clear `(v  1 e 0 0 ]
+"125
+[v _lcd_home lcd_home `(v  1 e 0 0 ]
+"131
+[v _lcd_setCursor lcd_setCursor `(v  1 e 0 0 ]
+"141
+[v _lcd_noDisplay lcd_noDisplay `(v  1 e 0 0 ]
+"147
+[v _lcd_display lcd_display `(v  1 e 0 0 ]
+"153
+[v _lcd_noCursor lcd_noCursor `(v  1 e 0 0 ]
+"159
+[v _lcd_cursor lcd_cursor `(v  1 e 0 0 ]
+"165
+[v _lcd_noBlink lcd_noBlink `(v  1 e 0 0 ]
+"171
+[v _lcd_blink lcd_blink `(v  1 e 0 0 ]
+"177
+[v _lcd_scrollDisplayLeft lcd_scrollDisplayLeft `(v  1 e 0 0 ]
+"182
+[v _lcd_scrollDisplayRight lcd_scrollDisplayRight `(v  1 e 0 0 ]
+"187
+[v _lcd_leftToRight lcd_leftToRight `(v  1 e 0 0 ]
+"193
+[v _lcd_rightToLeft lcd_rightToLeft `(v  1 e 0 0 ]
+"199
+[v _lcd_autoScroll lcd_autoScroll `(v  1 e 0 0 ]
+"205
+[v _lcd_noAutoScroll lcd_noAutoScroll `(v  1 e 0 0 ]
+"211
+[v _lcd_createChar lcd_createChar `(v  1 e 0 0 ]
+"220
+[v _lcd_command lcd_command `(v  1 e 0 0 ]
+"225
+[v _lcd_write lcd_write `(v  1 e 0 0 ]
+"230
+[v _lcd_send lcd_send `(v  1 e 0 0 ]
+"245
+[v _lcd_write4bits lcd_write4bits `(v  1 e 0 0 ]
+"256
+[v _lcd_write8bits lcd_write8bits `(v  1 e 0 0 ]
+"267
+[v _lcd_pulseEnable lcd_pulseEnable `(v  1 e 0 0 ]
+"277
+[v _lcd_printString lcd_printString `(v  1 e 0 0 ]
+"282
+[v _lcd_printNumber lcd_printNumber `(v  1 e 0 0 ]
+"317
+[v _lcd_printFloat lcd_printFloat `(v  1 e 0 0 ]
+"11 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\main.c
+[v _main main `(v  1 e 0 0 ]
+"11 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\PS2.c
+[v _PS2_begin PS2_begin `(v  1 e 0 0 ]
+"30
+[v _PS2_write PS2_write `(v  1 e 0 0 ]
+"47
+[v _PS2_read PS2_read `(uc  1 e 1 0 ]
+"95
+[v _PS2_getVal PS2_getVal `(uc  1 e 1 0 ]
+"101
+[v _PS2_getAll PS2_getAll `(i  1 e 2 0 ]
+"132
+[v _PS2_vibrate PS2_vibrate `(v  1 e 0 0 ]
+"142
+[v _PS2_reset PS2_reset `(v  1 e 0 0 ]
+"11 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\SC08A.c
+[v _SC08A_begin SC08A_begin `(v  1 e 0 0 ]
+"18
+[v _SC08A_initPos SC08A_initPos `(v  1 e 0 0 ]
+"32
+[v _SC08A_enable SC08A_enable `(v  1 e 0 0 ]
+"43
+[v _SC08A_pos SC08A_pos `(v  1 e 0 0 ]
+"58
+[v _SC08A_getPos SC08A_getPos `(i  1 e 2 0 ]
+"74
+[v _SC08A_end SC08A_end `(v  1 e 0 0 ]
+"14 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\Shield2AMotor.c
+[v _Shield2AMotor_begin Shield2AMotor_begin `(v  1 e 0 0 ]
+"38
+[v _Shield2AMotor_control Shield2AMotor_control `(v  1 e 0 0 ]
+"106
+[v _Shield2AMotor_readLSS05 Shield2AMotor_readLSS05 `(uc  1 e 1 0 ]
+"117
+[v _Shield2AMotor_waveDrive Shield2AMotor_waveDrive `(v  1 e 0 0 ]
+"148
+[v _Shield2AMotor_fullDrive Shield2AMotor_fullDrive `(v  1 e 0 0 ]
+"179
+[v _Shield2AMotor_halfStepDrive Shield2AMotor_halfStepDrive `(v  1 e 0 0 ]
+"38 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\SoftwareSerial.c
+[v _tunedDelay tunedDelay `T(v  1 s 0 tunedDelay ]
+"45
+[v _SSerial_recv SSerial_recv `(v  1 e 0 0 ]
+"87
+[v _SSerial_tx_pin_write SSerial_tx_pin_write `(v  1 e 0 0 ]
+"95
+[v _SSerial_rx_pin_read SSerial_rx_pin_read `(uc  1 e 1 0 ]
+"100
+[v _SoftwareSerial SoftwareSerial `(v  1 e 0 0 ]
+"111
+[v _SSerial_setTx SSerial_setTx `(v  1 e 0 0 ]
+"120
+[v _SSerial_setRx SSerial_setRx `(v  1 e 0 0 ]
+"131
+[v _SSerial_begin SSerial_begin `(v  1 e 0 0 ]
+"154
+[v _SSerial_end SSerial_end `(v  1 e 0 0 ]
+"159
+[v _SSerial_read SSerial_read `(i  1 e 2 0 ]
+"171
+[v _SSerial_available SSerial_available `(i  1 e 2 0 ]
+"176
+[v _SSerial_write SSerial_write `(ui  1 e 2 0 ]
+"226
+[v _SSerial_flush SSerial_flush `(v  1 e 0 0 ]
+"234
+[v _SSerial_peek SSerial_peek `(i  1 e 2 0 ]
+"244
+[v _SSerial_printString SSerial_printString `(v  1 e 0 0 ]
+"249
+[v _SSerial_printNumber SSerial_printNumber `(v  1 e 0 0 ]
+"269
+[v _SSerial_printFloat SSerial_printFloat `(v  1 e 0 0 ]
+"21 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\Tone.c
+[v _toneBegin toneBegin `(uc  1 s 1 toneBegin ]
+"45
+[v _tone tone `(v  1 e 0 0 ]
+"86
+[v _disableTimer disableTimer `(v  1 e 0 0 ]
+"97
+[v _noTone noTone `(v  1 e 0 0 ]
+"8 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\User-Template.c
+[v _setup setup `(v  1 e 0 0 ]
+"13
+[v _loop loop `(v  1 e 0 0 ]
+"14 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\wiring.c
+[v _millis millis `(ul  1 e 4 0 ]
+"26
+[v _micros micros `(ul  1 e 4 0 ]
+"43
+[v _delay delay `(v  1 e 0 0 ]
+"50
+[v _delayMicroseconds delayMicroseconds `(v  1 e 0 0 ]
+"57
+[v _init init `(v  1 e 0 0 ]
+"13 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\wiring_analog.c
+[v _analogReference analogReference `(v  1 e 0 0 ]
+"18
+[v _analogRead analogRead `(i  1 e 2 0 ]
+"45
+[v _analogWrite analogWrite `(v  1 e 0 0 ]
+"12 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\wiring_digital.c
+[v _pinMode pinMode `(v  1 e 0 0 ]
+"38
+[v _turnOffPWM turnOffPWM `(v  1 e 0 0 ]
+"52
+[v _digitalWrite digitalWrite `(v  1 e 0 0 ]
+"78
+[v _digitalRead digitalRead `(i  1 e 2 0 ]
+"89
+[v _digitalToggle digitalToggle `(v  1 e 0 0 ]
+"15 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\wiring_pulse.c
+[v _pulseIn pulseIn `(ul  1 e 4 0 ]
+"11 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\wiring_shift.c
+[v _shiftIn shiftIn `(uc  1 e 1 0 ]
+"28
+[v _shiftOut shiftOut `(v  1 e 0 0 ]
+"11 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\WMath.c
+[v _makeWord makeWord `(us  1 e 2 0 ]
+"12
+[v _makeWord2 makeWord2 `(us  1 e 2 0 ]
+"14
+[v _random random `(l  1 e 4 0 ]
+"22
+[v _random2 random2 `(l  1 e 4 0 ]
+"31
+[v _randomSeed randomSeed `(v  1 e 0 0 ]
+"38
+[v _map map `(l  1 e 4 0 ]
+"2569 D:\Program Files\Microchip\xc8\v1.32\include\pic18f4550.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"2725
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"2834
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"2987
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"3107
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"3358
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"3493
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"3625
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"3740
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"3872
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"3974
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"4171
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"4392
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"4563
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"4784
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"6006
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"6017
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"6028
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"6039
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+[s S695 . 1 `uc 1 CCP2M 1 0 :4:0 
+`uc 1 DC2B 1 0 :2:4 
+]
+"6860
+[s S698 . 1 `uc 1 CCP2M0 1 0 :1:0 
+`uc 1 CCP2M1 1 0 :1:1 
+`uc 1 CCP2M2 1 0 :1:2 
+`uc 1 CCP2M3 1 0 :1:3 
+`uc 1 DC2B0 1 0 :1:4 
+`uc 1 DC2B1 1 0 :1:5 
+]
+[u S705 . 1 `S695 1 . 1 0 `S698 1 . 1 0 ]
+[v _CCP2CONbits CCP2CONbits `VES705  1 e 1 @4026 ]
+"6910
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @4027 ]
+[s S664 . 1 `uc 1 CCP1M 1 0 :4:0 
+`uc 1 DC1B 1 0 :2:4 
+`uc 1 P1M 1 0 :2:6 
+]
+"6949
+[s S668 . 1 `uc 1 CCP1M0 1 0 :1:0 
+`uc 1 CCP1M1 1 0 :1:1 
+`uc 1 CCP1M2 1 0 :1:2 
+`uc 1 CCP1M3 1 0 :1:3 
+`uc 1 DC1B0 1 0 :1:4 
+`uc 1 DC1B1 1 0 :1:5 
+`uc 1 P1M0 1 0 :1:6 
+`uc 1 P1M1 1 0 :1:7 
+]
+[u S677 . 1 `S664 1 . 1 0 `S668 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES677  1 e 1 @4029 ]
+"7089
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"7101
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"7171
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+[s S537 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"7202
+[s S540 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S547 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+]
+[s S550 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 VCFG01 1 0 :1:4 
+]
+[s S553 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S556 . 1 `S537 1 . 1 0 `S540 1 . 1 0 `S547 1 . 1 0 `S550 1 . 1 0 `S553 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES556  1 e 1 @4033 ]
+"7261
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S582 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"7309
+[s S585 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S592 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S599 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S602 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S605 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S608 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S611 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S614 . 1 `S582 1 . 1 0 `S585 1 . 1 0 `S582 1 . 1 0 `S592 1 . 1 0 `S599 1 . 1 0 `S602 1 . 1 0 `S605 1 . 1 0 `S608 1 . 1 0 `S611 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES614  1 e 1 @4034 ]
+"7389
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"7395
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"7809
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+"7906
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"8021
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+"8125
+[v _TMR1 TMR1 `VEus  1 e 2 @4046 ]
+"8669
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"8744
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+[s S384 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"9209
+[s S393 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S402 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S411 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S420 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S424 . 1 `S384 1 . 1 0 `S393 1 . 1 0 `S402 1 . 1 0 `S411 1 . 1 0 `S420 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES424  1 e 1 @4082 ]
+"9533
+[v _ADON ADON `VEb  1 e 0 @32272 ]
+"9557
+[v _BRG16 BRG16 `VEb  1 e 0 @32195 ]
+"9559
+[v _BRGH BRGH `VEb  1 e 0 @32098 ]
+"9685
+[v _CREN CREN `VEb  1 e 0 @32092 ]
+"10045
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"10053
+[v _GO GO `VEb  1 e 0 @32273 ]
+"10101
+[v _INT0IE INT0IE `VEb  1 e 0 @32660 ]
+"10103
+[v _INT0IF INT0IF `VEb  1 e 0 @32657 ]
+"10111
+[v _INT1IE INT1IE `VEb  1 e 0 @32643 ]
+"10113
+[v _INT1IF INT1IF `VEb  1 e 0 @32640 ]
+"10115
+[v _INT1IP INT1IP `VEb  1 e 0 @32646 ]
+"10125
+[v _INT2IE INT2IE `VEb  1 e 0 @32644 ]
+"10127
+[v _INT2IF INT2IF `VEb  1 e 0 @32641 ]
+"10129
+[v _INT2IP INT2IP `VEb  1 e 0 @32647 ]
+"10133
+[v _INTEDG0 INTEDG0 `VEb  1 e 0 @32654 ]
+"10135
+[v _INTEDG1 INTEDG1 `VEb  1 e 0 @32653 ]
+"10137
+[v _INTEDG2 INTEDG2 `VEb  1 e 0 @32652 ]
+"10143
+[v _IPEN IPEN `VEb  1 e 0 @32391 ]
+"10423
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"10507
+[v _RBPU RBPU `VEb  1 e 0 @32655 ]
+"10541
+[v _RCIE RCIE `VEb  1 e 0 @31981 ]
+"10543
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"10545
+[v _RCIP RCIP `VEb  1 e 0 @31997 ]
+"10645
+[v _SPEN SPEN `VEb  1 e 0 @32095 ]
+"10729
+[v _SYNC SYNC `VEb  1 e 0 @32100 ]
+"10797
+[v _TMR0IE TMR0IE `VEb  1 e 0 @32661 ]
+"10799
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"10801
+[v _TMR0IP TMR0IP `VEb  1 e 0 @32650 ]
+"10807
+[v _TMR1IE TMR1IE `VEb  1 e 0 @31976 ]
+"10809
+[v _TMR1IF TMR1IF `VEb  1 e 0 @31984 ]
+"10811
+[v _TMR1IP TMR1IP `VEb  1 e 0 @31992 ]
+"10813
+[v _TMR1ON TMR1ON `VEb  1 e 0 @32360 ]
+"10851
+[v _TRISA4 TRISA4 `VEb  1 e 0 @31892 ]
+"10881
+[v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
+"10883
+[v _TRISC7 TRISC7 `VEb  1 e 0 @31911 ]
+"10907
+[v _TRMT TRMT `VEb  1 e 0 @32097 ]
+"10935
+[v _TX9 TX9 `VEb  1 e 0 @32102 ]
+"10947
+[v _TXEN TXEN `VEb  1 e 0 @32101 ]
+"10951
+[v _TXIE TXIE `VEb  1 e 0 @31980 ]
+"10953
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"10955
+[v _TXIP TXIP `VEb  1 e 0 @31996 ]
+"3 D:\Program Files\Microchip\xc8\v1.32\sources\common\rand.c
+[v _randx randx `l  1 s 4 randx ]
+"4
+[v _randf randf `uc  1 s 1 randf ]
+"12 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\G15.c
+[v __G15_CTRL _G15_CTRL `uc  1 e 1 0 ]
+"13
+[v __AX12_CTRL _AX12_CTRL `uc  1 e 1 0 ]
+"14
+[v _TxRx TxRx `uc  1 e 1 0 ]
+[s S36 . 68 `[64]uc 1 buffer 64 0 `VEui 1 head 2 64 `VEui 1 tail 2 66 ]
+"14 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\HardwareSerial.c
+[v __rx_buffer _rx_buffer `*.39VES36  1 e 2 0 ]
+"15
+[v __tx_buffer _tx_buffer `*.39VES36  1 e 2 0 ]
+"17
+[v _transmitting transmitting `b  1 e 0 0 ]
+"18
+[v __timeout _timeout `ul  1 e 4 0 ]
+"19
+[v __startMillis _startMillis `ul  1 e 4 0 ]
+"14 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\interrupt.c
+[v _timer0_fract timer0_fract `uc  1 s 1 timer0_fract ]
+"15
+[v _rx_buffer rx_buffer `VES36  1 e 68 0 ]
+"16
+[v _tx_buffer tx_buffer `VES36  1 e 68 0 ]
+"18
+[v _INTFlag INTFlag `uc  1 e 1 0 ]
+"20
+[v _intFunc intFunc `VE[3]*.2(v  1 s 6 intFunc ]
+"52 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\LiquidCrystal.h
+[v __displayfunction _displayfunction `uc  1 e 1 0 ]
+"53
+[v __displaycontrol _displaycontrol `uc  1 e 1 0 ]
+"54
+[v __displaymode _displaymode `uc  1 e 1 0 ]
+"56
+[v __rs_pin _rs_pin `uc  1 e 1 0 ]
+"57
+[v __enable_pin _enable_pin `uc  1 e 1 0 ]
+"58
+[v __data_pins _data_pins `[8]uc  1 e 8 0 ]
+"59
+[v __numlines _numlines `uc  1 e 1 0 ]
+"26 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\pins.h
+[v _portModeRegister portModeRegister `C[6]*.39VEuc  1 e 12 0 ]
+"35
+[v _portInputRegister portInputRegister `C[6]*.39VEuc  1 e 12 0 ]
+"44
+[v _portOutputRegister portOutputRegister `C[6]*.39VEuc  1 e 12 0 ]
+"53
+[v _digitalPinToPort digitalPinToPort `C[27]uc  1 e 27 0 ]
+"87
+[v _digitalPinToBitMask digitalPinToBitMask `C[27]uc  1 e 27 0 ]
+"121
+[v _analogPinToChannel analogPinToChannel `C[6]uc  1 e 6 0 ]
+"130
+[v _digitalPinToTimer digitalPinToTimer `C[27]uc  1 e 27 0 ]
+"54 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\PS2.h
+[v _HW HW `uc  1 e 1 0 ]
+"55
+[v _SERIAL_ERR SERIAL_ERR `uc  1 e 1 0 ]
+"56
+[v _ps_data ps_data `[6]uc  1 e 6 0 ]
+"35 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\Shield2AMotor.h
+[v __mode _mode `E4610  1 e 1 0 ]
+"36
+[v _position position `uc  1 e 1 0 ]
+[s S1185 _DELAY_TABLE 12 `l 1 baud 4 0 `us 1 rx_delay_centering 2 4 `us 1 rx_delay_intrabit 2 6 `us 1 rx_delay_stopbit 2 8 `us 1 tx_delay 2 10 ]
+"23 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\SoftwareSerial.c
+[v _table table `C[5]S1185  1 s 60 table ]
+"36
+[v _XMIT_START_ADJUSTMENT XMIT_START_ADJUSTMENT `Ci  1 e 2 0 ]
+"18 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\SoftwareSerial.h
+[v __receivePin _receivePin `uc  1 e 1 0 ]
+"19
+[v __receiveBitMask _receiveBitMask `uc  1 e 1 0 ]
+"20
+[v __receivePortRegister _receivePortRegister `*.39VEuc  1 e 2 0 ]
+"21
+[v __transmitBitMask _transmitBitMask `uc  1 e 1 0 ]
+"22
+[v __transmitPortRegister _transmitPortRegister `*.39VEuc  1 e 2 0 ]
+"24
+[v __rx_delay_centering _rx_delay_centering `us  1 e 2 0 ]
+"25
+[v __rx_delay_intrabit _rx_delay_intrabit `us  1 e 2 0 ]
+"26
+[v __rx_delay_stopbit _rx_delay_stopbit `us  1 e 2 0 ]
+"27
+[v __tx_delay _tx_delay `us  1 e 2 0 ]
+"29
+[v __inverse_logic _inverse_logic `us  1 e 2 0 ]
+"30
+[v __buffer_overflow _buffer_overflow `us  1 e 2 0 ]
+"32
+[v __receive_buffer _receive_buffer `[64]uc  1 e 64 0 ]
+"33
+[v __receive_buffer_tail _receive_buffer_tail `VEus  1 e 2 0 ]
+"34
+[v __receive_buffer_head _receive_buffer_head `VEus  1 e 2 0 ]
+"11 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\Tone.c
+[v _timer1_toggle_count timer1_toggle_count `VEl  1 e 4 0 ]
+"12
+[v _timer1_pin_port timer1_pin_port `*.39VEuc  1 e 2 0 ]
+"13
+[v _timer1_pin_mask timer1_pin_mask `VEuc  1 e 1 0 ]
+"14
+[v _ocr ocr `VEus  1 e 2 0 ]
+"18
+[v _tonePinToTimer tonePinToTimer `C[1]uc  1 e 1 0 ]
+"19
+[v _tone_pins tone_pins `[1]uc  1 s 1 tone_pins ]
+"11 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\wiring.c
+[v _timer0_overflow_count timer0_overflow_count `VEul  1 e 4 0 ]
+"12
+[v _timer0_millis timer0_millis `VEul  1 e 4 0 ]
+"11 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\wiring_analog.c
+[v _analog_reference analog_reference `uc  1 e 1 0 ]
+"11 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"21
+} 0
+"8 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\User-Template.c
+[v _setup setup `(v  1 e 0 0 ]
+{
+"11
+} 0
+"12 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\wiring_digital.c
+[v _pinMode pinMode `(v  1 e 0 0 ]
+{
+[v pinMode@pin pin `uc  1 a 1 wreg ]
+"31
+[v pinMode@oldGIE_867 oldGIE `uc  1 a 1 3 ]
+"24
+[v pinMode@oldGIE oldGIE `uc  1 a 1 2 ]
+"16
+[v pinMode@reg reg `*.39VEuc  1 a 2 5 ]
+"15
+[v pinMode@port port `uc  1 a 1 8 ]
+"14
+[v pinMode@_bit _bit `uc  1 a 1 7 ]
+"12
+[v pinMode@pin pin `uc  1 a 1 wreg ]
+[v pinMode@mode mode `uc  1 p 1 0 ]
+"14
+[v pinMode@pin pin `uc  1 a 1 4 ]
+"36
+} 0
+"13 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\User-Template.c
+[v _loop loop `(v  1 e 0 0 ]
+{
+"19
+} 0
+"52 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\wiring_digital.c
+[v _digitalWrite digitalWrite `(v  1 e 0 0 ]
+{
+[v digitalWrite@pin pin `uc  1 a 1 wreg ]
+"57
+[v digitalWrite@out out `*.39VEuc  1 a 2 4 ]
+"56
+[v digitalWrite@port port `uc  1 a 1 8 ]
+"55
+[v digitalWrite@_bit _bit `uc  1 a 1 7 ]
+"54
+[v digitalWrite@timer timer `uc  1 a 1 6 ]
+"65
+[v digitalWrite@oldGIE oldGIE `uc  1 a 1 3 ]
+"52
+[v digitalWrite@pin pin `uc  1 a 1 wreg ]
+[v digitalWrite@val val `uc  1 p 1 1 ]
+"54
+[v digitalWrite@pin pin `uc  1 a 1 9 ]
+"76
+} 0
+"38
+[v _turnOffPWM turnOffPWM `(v  1 e 0 0 ]
+{
+[v turnOffPWM@timer timer `uc  1 a 1 wreg ]
+[v turnOffPWM@timer timer `uc  1 a 1 wreg ]
+[v turnOffPWM@timer timer `uc  1 a 1 0 ]
+"50
+} 0
+"43 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\wiring.c
+[v _delay delay `(v  1 e 0 0 ]
+{
+[v delay@ms ms `ul  1 p 4 0 ]
+"48
+} 0
+"57
+[v _init init `(v  1 e 0 0 ]
+{
+"94
+} 0
+"133 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\interrupt.c
+[v _low_isr low_isr `IIL(v  1 e 0 0 ]
+{
+"164
+[v low_isr@c c `uc  1 a 1 20 ]
+"170
+} 0
+"86 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\Tone.c
+[v _disableTimer disableTimer `(v  1 e 0 0 ]
+{
+[v disableTimer@_timer _timer `uc  1 a 1 wreg ]
+[v disableTimer@_timer _timer `uc  1 a 1 wreg ]
+[v disableTimer@_timer _timer `uc  1 a 1 0 ]
+"95
+} 0
+"78 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\interrupt.c
+[v _high_isr high_isr `II(v  1 e 0 0 ]
+{
+"102
+[v high_isr@c c `uc  1 a 1 19 ]
+"84
+[v high_isr@m m `ul  1 a 4 20 ]
+"85
+[v high_isr@f f `uc  1 a 1 24 ]
+"131
+} 0
+"21 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\HardwareSerial.c
+[v _store_char store_char `(v  1 e 0 0 ]
+{
+[v store_char@c c `uc  1 a 1 wreg ]
+"23
+[v store_char@i i `i  1 a 2 26 ]
+"21
+[v store_char@c c `uc  1 a 1 wreg ]
+[s S36 . 68 `[64]uc 1 buffer 64 0 `VEui 1 head 2 64 `VEui 1 tail 2 66 ]
+[v store_char@buffer buffer `*.39VES36  1 p 2 21 ]
+"23
+[v store_char@c c `uc  1 a 1 25 ]
+"33
+} 0
+"45 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\SoftwareSerial.c
+[v _SSerial_recv SSerial_recv `(v  1 e 0 0 ]
+{
+"58
+[v SSerial_recv@noti noti `uc  1 a 1 0 ]
+"54
+[v SSerial_recv@i i `uc  1 a 1 4 ]
+"47
+[v SSerial_recv@d d `uc  1 a 1 3 ]
+"85
+} 0
+"38
+[v _tunedDelay tunedDelay `T(v  1 s 0 tunedDelay ]
+{
+"39
+[v tunedDelay@delay delay `us  1 p 2 21 ]
+"43
+} 0
+"89 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\wiring_digital.c
+[v _digitalToggle digitalToggle `(v  1 e 0 0 ]
+{
+[v digitalToggle@pin pin `uc  1 a 1 wreg ]
+[v digitalToggle@pin pin `uc  1 a 1 wreg ]
+"91
+[v digitalToggle@pin pin `uc  1 a 1 22 ]
+"92
+} 0
+"95 E:\GD\Cytron\Product\CIKU\CIKU Library\CIKU.X\SoftwareSerial.c
+[v _SSerial_rx_pin_read SSerial_rx_pin_read `(uc  1 e 1 0 ]
+{
+"98
+} 0
